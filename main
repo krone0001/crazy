@@ -1,3 +1,17 @@
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+
+local Notify = AkaliNotif.Notify;
+
+Notify({
+
+Description = "Welcome to krones lock";
+
+Title = "krone#9105 and sleepin#5186";
+
+Duration = 10;
+
+});
+
 local TimeToLoad = tick()
 
 local CC = game:GetService"Workspace".CurrentCamera
